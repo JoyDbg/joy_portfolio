@@ -1,14 +1,22 @@
+.container-navbar {
+  width: 40vw;
+  margin: 0 auto;
+}
+
 .navbar {
   width: 100%;
-  height: 30vh;
+  height: 25vh;
   background-color: #E8D1C5;
   color: white;
 
   .logo-name {
     display: flex;
     justify-content: center;
-    padding: 0 10px;
     font-size: 18px;
+    img {
+      width: 20vw;
+      padding-bottom: 20px;
+    }
   }
 
   .nav-links-projects {
